@@ -1,0 +1,12 @@
+prefix=D:/git_code/librdkafka/install
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: librdkafka
+Description: The Apache Kafka C/C++ library
+Version: 2.8.0
+Requires.private: zlib libcrypto libssl 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lrdkafka
+Libs.private: -lws2_32 -lsecur32 -lcrypt32
