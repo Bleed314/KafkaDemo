@@ -24,6 +24,7 @@
     <ProjectGuid>{564c42cf-3b37-4869-956e-019b50fa94e2}</ProjectGuid>
     <RootNamespace>TestKafka</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>TestKafka</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
